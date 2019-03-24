@@ -1,5 +1,7 @@
 package com.yidiandian.thread;
 
+import sun.misc.Unsafe;
+
 /**
  * @Author: 一点点
  * @Date: 2019/3/22 20:20
@@ -21,5 +23,6 @@ public class ThreadLocalTest2 {
         } );
         thread.start();
         System.out.println("main:"+threadLocal.get());
+
     }
 }

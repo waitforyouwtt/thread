@@ -3,6 +3,7 @@ package com.yidiandian.thread;
 import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Author: 一点点
@@ -41,5 +42,7 @@ public class UnsafeTest2 {
         public volatile long value = 0L;
         @sun.misc.Contended
         int value2 =0;
+        ReentrantLock reentrantLock = new ReentrantLock(  );
+        ReentrantLock lock = new ReentrantLock( true );
     }
 }

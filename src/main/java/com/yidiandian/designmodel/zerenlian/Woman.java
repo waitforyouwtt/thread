@@ -11,7 +11,6 @@ public class Woman implements IWoman {
      */
     private int type = 0;
     private String request;
-
     /**
      * 构造函数，设置女子信息
      * @param type
@@ -26,7 +25,6 @@ public class Woman implements IWoman {
     public String sendRequire() {
         return this.request;
     }
-
     /**
      * 获取当前状态
      * @return

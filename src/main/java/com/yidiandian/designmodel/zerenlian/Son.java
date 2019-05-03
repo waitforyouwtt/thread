@@ -9,7 +9,6 @@ public class Son extends ResponseHandler{
     public Son() {
         super(ResponseHandler.SON_LEVEL_RESPONSE);
     }
-
     @Override
     public void response(IWoman woman) {
         System.out.println("----------母亲向儿子请求-------");

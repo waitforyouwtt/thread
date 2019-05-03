@@ -9,7 +9,6 @@ public class Father extends ResponseHandler {
     public Father() {
         super( ResponseHandler.FATHER_LEVEL_RESPONSE );
     }
-
     @Override
     protected void response(IWoman woman) {
         System.out.println("---女儿向父亲发起请求---");

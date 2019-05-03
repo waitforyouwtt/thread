@@ -9,7 +9,6 @@ public class Husband extends ResponseHandler{
     public Husband() {
         super(ResponseHandler.HUSBAND_LEVEL_RESPONSE);
     }
-
     @Override
     public void response(IWoman woman) {
         System.out.println("----------妻子向丈夫请求-------");
